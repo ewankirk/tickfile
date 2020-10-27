@@ -492,7 +492,6 @@ def _test():
             if count > amount:
                 break
         print(avg / count)
-
     avg = 0
     with Timer('Loop through points'):
         for point in comp:
